@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form </title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Dancing+Script&family=Gabarito:wght@600&family=Inter:wght@600&family=Noto+Sans+JP&family=Nova+Square&family=Poppins:wght@100&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <div class="container">
+        <div class="pop-up">
+            <button class="btn-popup">Open Form</button>
+        </div>
+
+        <!-- form  -->
+        <div class="form-container">
+            <form action="" id="reset" >
+                <div>
+                    <label for="name">Name</label> <br>
+                    <input type="text" id="name" placeholder="Enter name" >
+                </div>
+                <div>
+                    <label for="email">Email</label> <br>
+                    <input type="email" id="email" placeholder="Enter email" >
+                </div>
+                <div>
+                    <label for="roll-num">Roll NO</label> <br>
+                    <input type="text" name="" id="roll-num" placeholder="Enter Roll No" >
+                </div>
+
+                <button type="button" class="btn-submit" >save</button>
+                <!-- <input type="submit" class="btn-submit" value="submit"> -->
+
+
+            </form>
+        </div>
+
+
+        <!-- table  -->
+
+        <section class="table-section">
+            <table border="1px" cellcollapse="cellcollapse" >
+                <thead>
+                    <tr>
+                        <th>Name</th>
+                        <th>Email</th>
+                        <th>Roll NO</th>
+                        <th colspan="2">Actions</th>
+                    </tr>
+                </thead>
+                <tbody id="table-body">
+                    <!-- <tr>
+                        <td>shami</td>
+                        <td>111@GAMIL</td>
+                        <td>237772</td>
+                        <td colspan="1">jajajj</td>
+                        <td colspan="1">jajajj</td>
+
+                    </tr> -->
+                </tbody>
+            </table>
+        </section>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
